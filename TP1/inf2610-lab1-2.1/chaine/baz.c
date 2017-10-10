@@ -13,7 +13,11 @@
 #include "whoami.h"
 
 int main(int argc, char **argv) {
+//printf("argc: %d, argv: %c", argc, *argv[1]);
 	increment_rank();
 	whoami("baz");
+    char *args[] = {"foo", argv[1], NULL};
+    execv("foo", args);
+
 	return 0;
 }
