@@ -19,18 +19,7 @@ chaine.o: chaine.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/getopt.h /usr/include/libgen.h /usr/include/string.h \
- whoami.h /usr/include/pth.h /usr/include/bits/timex.h \
- /usr/include/sys/time.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
- /usr/include/bits/uio.h /usr/include/bits/socket.h \
- /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
- /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
- /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
- /usr/include/sys/signal.h /usr/include/signal.h \
- /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
- /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
- /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
- /usr/include/bits/sigthread.h /usr/include/poll.h \
- /usr/include/sys/poll.h /usr/include/bits/poll.h
+ whoami.h
 
 /usr/include/stdc-predef.h:
 
@@ -115,53 +104,3 @@ chaine.o: chaine.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
 /usr/include/string.h:
 
 whoami.h:
-
-/usr/include/pth.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/sys/time.h:
-
-/usr/include/sys/socket.h:
-
-/usr/include/sys/uio.h:
-
-/usr/include/bits/uio.h:
-
-/usr/include/bits/socket.h:
-
-/usr/include/bits/socket_type.h:
-
-/usr/include/bits/sockaddr.h:
-
-/usr/include/asm/socket.h:
-
-/usr/include/asm-generic/socket.h:
-
-/usr/include/asm/sockios.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/sys/signal.h:
-
-/usr/include/signal.h:
-
-/usr/include/bits/signum.h:
-
-/usr/include/bits/siginfo.h:
-
-/usr/include/bits/sigaction.h:
-
-/usr/include/bits/sigcontext.h:
-
-/usr/include/bits/sigstack.h:
-
-/usr/include/sys/ucontext.h:
-
-/usr/include/bits/sigthread.h:
-
-/usr/include/poll.h:
-
-/usr/include/sys/poll.h:
-
-/usr/include/bits/poll.h:

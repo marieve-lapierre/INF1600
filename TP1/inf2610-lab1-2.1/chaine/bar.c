@@ -13,7 +13,18 @@
 #include "whoami.h"
 
 int main(int argc, char **argv) {
+    char compteur = *argv[1];
 	increment_rank();
 	whoami("bar");
+    
+    int n = compteur;
+    n = n - 1;
+    
+    if(n != '0'){
+        char i = n;
+        printf(" %c ", i);
+        char *args[] = {"baz", &i, NULL};
+        execv("baz", args);
+    }
 	return 0;
 }
