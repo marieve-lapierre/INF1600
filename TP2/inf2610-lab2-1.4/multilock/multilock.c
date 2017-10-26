@@ -269,6 +269,7 @@ int do_all(struct experiment *exp) {
 }
 
 int main(int argc, char **argv) {
+    printf("BOUHA");
     int ret;
     struct experiment *exp = calloc(1, sizeof(struct experiment));
 

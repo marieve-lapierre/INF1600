@@ -37,7 +37,7 @@ void spinlock_init(struct experiment * e) {
     // TODO: allocation d'un long dans e->lock
     e->lock = malloc(sizeof(long));
     // TODO: initialisation à zéro
-    e->lock = 0;
+    e->lock = 0;    
 }
 
 void spinlock_destroy(struct experiment * e) {
