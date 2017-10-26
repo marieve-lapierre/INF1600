@@ -17,17 +17,18 @@
  * et l'interface dans minispinlock.h
  */
 void *spinlock_main(void * data) {
+    printf("debut");
     unsigned long i, j;
     struct experiment * e = data;
     for (i = 0; i < e->outer; i++) {
         // TODO: verrouiller
-        lock_mini_spin(&e->lock);
+        lock_mini_spin(e->lock);
         for (j = 0; j < e->inner; j++) {
             unsigned long idx = (i * e->inner) + j;
             statistics_add_sample(e->data, (double) idx);
         }
         // TODO: deverrouiller
-        unlock_mini_spin(&e->lock);
+        unlock_mini_spin(e->lock);
     }
     return NULL;
 }
@@ -35,9 +36,8 @@ void *spinlock_main(void * data) {
 void spinlock_init(struct experiment * e) {
     e->data = make_statistics();
     // TODO: allocation d'un long dans e->lock
-    e->lock = malloc(sizeof(long));
+    e->lock = (long*) calloc(1, sizeof(long));
     // TODO: initialisation à zéro
-    e->lock = 0;    
 }
 
 void spinlock_destroy(struct experiment * e) {

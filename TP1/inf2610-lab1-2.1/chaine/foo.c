@@ -1,5 +1,5 @@
 /*
- * baz.c
+ * foo.c
  *
  *  Created on: 2013-08-15
  *      Author: Francis Giraldeau <francis.giraldeau@gmail.com>
@@ -14,6 +14,8 @@
 
 int main(int argc, char **argv) {
 	increment_rank();
-	whoami("baz");
+	whoami("foo");
+    char *args[] = {"bar", argv[1], NULL};
+    execv("bar", args);
 	return 0;
 }
