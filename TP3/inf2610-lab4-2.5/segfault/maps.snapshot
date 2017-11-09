@@ -1,24 +1,24 @@
-00400000-00401000 r-xp 00000000 00:2a 181148595                          /usagers/joger/Bureau/INF2610/INF1600/TP3/inf2610-lab4-2.5/segfault/segfault
-00601000-00602000 r--p 00001000 00:2a 181148595                          /usagers/joger/Bureau/INF2610/INF1600/TP3/inf2610-lab4-2.5/segfault/segfault
-00602000-00603000 rw-p 00002000 00:2a 181148595                          /usagers/joger/Bureau/INF2610/INF1600/TP3/inf2610-lab4-2.5/segfault/segfault
-01a38000-01afe000 rw-p 00000000 00:00 0                                  [heap]
-7fdc5d914000-7fdc5dad0000 r-xp 00000000 08:04 3569990                    /usr/lib64/libc-2.24.so
-7fdc5dad0000-7fdc5dcd0000 ---p 001bc000 08:04 3569990                    /usr/lib64/libc-2.24.so
-7fdc5dcd0000-7fdc5dcd4000 r--p 001bc000 08:04 3569990                    /usr/lib64/libc-2.24.so
-7fdc5dcd4000-7fdc5dcd6000 rw-p 001c0000 08:04 3569990                    /usr/lib64/libc-2.24.so
-7fdc5dcd6000-7fdc5dcda000 rw-p 00000000 00:00 0 
-7fdc5dcda000-7fdc5dcf2000 r-xp 00000000 08:04 3569210                    /usr/lib64/libpthread-2.24.so
-7fdc5dcf2000-7fdc5def2000 ---p 00018000 08:04 3569210                    /usr/lib64/libpthread-2.24.so
-7fdc5def2000-7fdc5def3000 r--p 00018000 08:04 3569210                    /usr/lib64/libpthread-2.24.so
-7fdc5def3000-7fdc5def4000 rw-p 00019000 08:04 3569210                    /usr/lib64/libpthread-2.24.so
-7fdc5def4000-7fdc5def8000 rw-p 00000000 00:00 0 
-7fdc5def8000-7fdc5df1e000 r-xp 00000000 08:04 3567579                    /usr/lib64/ld-2.24.so
-7fdc5e0bd000-7fdc5e0bf000 rw-p 00000000 00:00 0 
-7fdc5e11b000-7fdc5e11d000 rw-p 00000000 00:00 0 
-7fdc5e11d000-7fdc5e11e000 r--p 00025000 08:04 3567579                    /usr/lib64/ld-2.24.so
-7fdc5e11e000-7fdc5e11f000 rw-p 00026000 08:04 3567579                    /usr/lib64/ld-2.24.so
-7fdc5e11f000-7fdc5e120000 rw-p 00000000 00:00 0 
-7ffce2ce6000-7ffce2d08000 rw-p 00000000 00:00 0                          [stack]
-7ffce2da0000-7ffce2da2000 r--p 00000000 00:00 0                          [vvar]
-7ffce2da2000-7ffce2da4000 r-xp 00000000 00:00 0                          [vdso]
+00400000-00401000 r-xp 00000000 00:2f 181148595                          /usagers/joger/Bureau/INF2610/INF1600/TP3/inf2610-lab4-2.5/segfault/segfault
+00601000-00602000 r--p 00001000 00:2f 181148595                          /usagers/joger/Bureau/INF2610/INF1600/TP3/inf2610-lab4-2.5/segfault/segfault
+00602000-00603000 rw-p 00002000 00:2f 181148595                          /usagers/joger/Bureau/INF2610/INF1600/TP3/inf2610-lab4-2.5/segfault/segfault
+01293000-01359000 rw-p 00000000 00:00 0                                  [heap]
+7fa1ca3a4000-7fa1ca560000 r-xp 00000000 08:04 951196                     /usr/lib64/libc-2.24.so
+7fa1ca560000-7fa1ca760000 ---p 001bc000 08:04 951196                     /usr/lib64/libc-2.24.so
+7fa1ca760000-7fa1ca764000 r--p 001bc000 08:04 951196                     /usr/lib64/libc-2.24.so
+7fa1ca764000-7fa1ca766000 rw-p 001c0000 08:04 951196                     /usr/lib64/libc-2.24.so
+7fa1ca766000-7fa1ca76a000 rw-p 00000000 00:00 0 
+7fa1ca76a000-7fa1ca782000 r-xp 00000000 08:04 950416                     /usr/lib64/libpthread-2.24.so
+7fa1ca782000-7fa1ca982000 ---p 00018000 08:04 950416                     /usr/lib64/libpthread-2.24.so
+7fa1ca982000-7fa1ca983000 r--p 00018000 08:04 950416                     /usr/lib64/libpthread-2.24.so
+7fa1ca983000-7fa1ca984000 rw-p 00019000 08:04 950416                     /usr/lib64/libpthread-2.24.so
+7fa1ca984000-7fa1ca988000 rw-p 00000000 00:00 0 
+7fa1ca988000-7fa1ca9ae000 r-xp 00000000 08:04 948907                     /usr/lib64/ld-2.24.so
+7fa1cab4d000-7fa1cab4f000 rw-p 00000000 00:00 0 
+7fa1cabab000-7fa1cabad000 rw-p 00000000 00:00 0 
+7fa1cabad000-7fa1cabae000 r--p 00025000 08:04 948907                     /usr/lib64/ld-2.24.so
+7fa1cabae000-7fa1cabaf000 rw-p 00026000 08:04 948907                     /usr/lib64/ld-2.24.so
+7fa1cabaf000-7fa1cabb0000 rw-p 00000000 00:00 0 
+7ffccddea000-7ffccde0b000 rw-p 00000000 00:00 0                          [stack]
+7ffccdf5a000-7ffccdf5c000 r--p 00000000 00:00 0                          [vvar]
+7ffccdf5c000-7ffccdf5e000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

@@ -10,6 +10,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <math.h>
 
 /*
  * Savegarder la page contenant ptr dans le fichier fname
@@ -24,6 +28,20 @@ void save_page(char *fname, void *ptr) {
      * 3 - écrire la page dans le fichier
      * 4 - fermer le fichier
      */
+    FILE* new_file;
+    int page_size = getpagesize()- 1;
+    int invert_page_size = ~page_size;
+    long start_adr_l = (long) ptr & invert_page_size;
+    ptr = (void *) start_adr_l;
+    
+    char *mode_open = "w+";
+    if ((new_file = fopen(fname, mode_open)) != NULL) {
+            fwrite(ptr, sizeof(char), page_size/sizeof(char), new_file);
+            fclose(new_file);
+    } else {
+        perror("A problem occur when attempting to open the file.");   
+        fclose(new_file);    
+    }
 
     return;
 }

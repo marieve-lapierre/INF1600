@@ -33,6 +33,18 @@ experiences = {
         "block-size": "huge",
         "block-count": 150,
         "fill": True },
+    "stack_fill_huge": {
+        "where": "stack",
+        "block-size": "huge",
+        "block-count": 150,
+        "fill": True,
+        },
+    "stack_nofill_page": {
+        "where": "stack",
+        "block-size": "huge",
+        "block-count": 150,
+        "fill": False,
+        }
 }
 
 gnuplot_template = \

@@ -1,0 +1,7 @@
+set terminal pngcairo size 640,480 enhanced font 'Verdana,10'
+set output 'pid_12568.png'
+set title "Memory analysis stack_nofill_page"
+set xlabel "time (ns)"
+set ylabel "size (byte)"
+# set key outside
+plot "pid_12568.data" using 1:2 with lines title "heap", "pid_12568.data" using 1:3 with lines title "stack", "pid_12568.data" using 1:4 with lines title "kmem"
