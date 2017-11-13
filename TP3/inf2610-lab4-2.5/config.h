@@ -66,19 +66,19 @@
 #define LT_OBJDIR ".libs/"
 
 /* Name of package */
-#define PACKAGE "inf2610-lab4"
+#define PACKAGE "inf2610-lab3"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "INF2610-LAB4"
+#define PACKAGE_NAME "INF2610-LAB3"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "INF2610-LAB4 2.5"
+#define PACKAGE_STRING "INF2610-LAB3 2.5"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "inf2610-lab4"
+#define PACKAGE_TARNAME "inf2610-lab3"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""

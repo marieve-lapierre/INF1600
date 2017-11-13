@@ -115,7 +115,6 @@ main(int argc, char **argv) {
          * puis exécuter la commande passée en argument (voir vars->prog et vars->args).
          * ATTENTION: bien s'assurer de traiter l'argument vars->dry_run
          */
-        printf("BOB %d", vars->dry_run);
         if(vars->dry_run == 1)
             personality(ADDR_NO_RANDOMIZE);
         
