@@ -2,6 +2,9 @@
 #define IMAGEQUEUE_H
 
 #include <QObject>
+#include <windows.h>
+#include <stdio.h>
+#include <QVector>
 
 class QImage;
 
@@ -16,6 +19,10 @@ public:
     bool isEmpty();
 private:
     int m_capacity;
+    QVector<QImage> m_queue;
+    HANDLE m_libre;
+    HANDLE m_occupe;
+    HANDLE m_mutex;
 };
 
 #endif // IMAGEQUEUE_H
